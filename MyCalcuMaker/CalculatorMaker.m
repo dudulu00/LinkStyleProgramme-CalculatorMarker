@@ -10,4 +10,23 @@
 
 @implementation CalculatorMaker
 
+- (CalculatorMaker *(^)(int))add
+{
+    return ^CalculatorMaker*(int value){
+        _result += value;
+        
+        return self;
+    };
+}
+
+- (CalculatorMaker *(^)(int))sub
+{
+    return ^CalculatorMaker*(int value){
+      
+        _result -= value;
+        return self;
+    };
+}
+
+
 @end

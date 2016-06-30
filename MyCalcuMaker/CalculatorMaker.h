@@ -10,4 +10,10 @@
 
 @interface CalculatorMaker : NSObject
 
+@property (nonatomic, assign) int result;
+
+- (CalculatorMaker *(^)(int))add;
+- (CalculatorMaker *(^)(int))sub;
+
+
 @end

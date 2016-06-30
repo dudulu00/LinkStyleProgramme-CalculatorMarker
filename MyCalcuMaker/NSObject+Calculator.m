@@ -7,7 +7,18 @@
 //
 
 #import "NSObject+Calculator.h"
+#import "CalculatorMaker.h"
 
-@implementation NSObject_Calculator
+@implementation NSObject (Calculator)
+
+
++ (int)makeCalculator:(void (^)(CalculatorMaker *))calcuBlock
+{
+    CalculatorMaker *cmake = [[CalculatorMaker alloc] init];
+    calcuBlock(cmake);
+    
+    return cmake.result;
+}
+
 
 @end

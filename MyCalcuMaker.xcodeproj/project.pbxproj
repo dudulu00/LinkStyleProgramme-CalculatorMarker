@@ -15,6 +15,8 @@
 		B25D057C1D24F2C800999BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25D057A1D24F2C800999BDF /* LaunchScreen.storyboard */; };
 		B25D05871D24F2C800999BDF /* MyCalcuMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05861D24F2C800999BDF /* MyCalcuMakerTests.m */; };
 		B25D05921D24F2C800999BDF /* MyCalcuMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05911D24F2C800999BDF /* MyCalcuMakerUITests.m */; };
+		B25D05A11D24F3EF00999BDF /* CalculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05A01D24F3EF00999BDF /* CalculatorMaker.m */; };
+		B25D05A41D24F77B00999BDF /* NSObject+Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05A31D24F77B00999BDF /* NSObject+Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B25D058D1D24F2C800999BDF /* MyCalcuMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalcuMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25D05911D24F2C800999BDF /* MyCalcuMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCalcuMakerUITests.m; sourceTree = "<group>"; };
 		B25D05931D24F2C800999BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25D059F1D24F3EF00999BDF /* CalculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorMaker.h; sourceTree = "<group>"; };
+		B25D05A01D24F3EF00999BDF /* CalculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorMaker.m; sourceTree = "<group>"; };
+		B25D05A21D24F77B00999BDF /* NSObject+Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculator.h"; sourceTree = "<group>"; };
+		B25D05A31D24F77B00999BDF /* NSObject+Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Calculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				B25D05701D24F2C800999BDF /* AppDelegate.m */,
 				B25D05721D24F2C800999BDF /* ViewController.h */,
 				B25D05731D24F2C800999BDF /* ViewController.m */,
+				B25D059F1D24F3EF00999BDF /* CalculatorMaker.h */,
+				B25D05A01D24F3EF00999BDF /* CalculatorMaker.m */,
+				B25D05A21D24F77B00999BDF /* NSObject+Calculator.h */,
+				B25D05A31D24F77B00999BDF /* NSObject+Calculator.m */,
 				B25D05751D24F2C800999BDF /* Main.storyboard */,
 				B25D05781D24F2C800999BDF /* Assets.xcassets */,
 				B25D057A1D24F2C800999BDF /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				B25D05741D24F2C800999BDF /* ViewController.m in Sources */,
 				B25D05711D24F2C800999BDF /* AppDelegate.m in Sources */,
+				B25D05A41D24F77B00999BDF /* NSObject+Calculator.m in Sources */,
+				B25D05A11D24F3EF00999BDF /* CalculatorMaker.m in Sources */,
 				B25D056E1D24F2C800999BDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

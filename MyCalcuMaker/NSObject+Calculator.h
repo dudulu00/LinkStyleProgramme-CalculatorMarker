@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject_Calculator : NSObject
+@class CalculatorMaker;
+
+@interface NSObject (Calculator)
+
++ (int)makeCalculator:(void (^)(CalculatorMaker *))calcuBlock;
+
 
 @end
